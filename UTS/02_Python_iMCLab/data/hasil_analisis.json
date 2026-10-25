@@ -1,0 +1,117 @@
+{
+  "ppr_assumed": 2,
+  "rpm_calibrated": false,
+  "raw_log_count": 4,
+  "data_sample_count": 67,
+  "runs": [
+    {
+      "source": "python_off_20261019_061024.csv",
+      "data_samples": 5,
+      "active_samples": 0,
+      "on_duration_s": null,
+      "errors": []
+    },
+    {
+      "source": "python_perintah_20261019_061413.csv",
+      "data_samples": 6,
+      "active_samples": 0,
+      "on_duration_s": null,
+      "errors": []
+    },
+    {
+      "source": "python_pilot200_20261019_061043.csv",
+      "data_samples": 5,
+      "active_samples": 2,
+      "on_duration_s": 2.194046,
+      "errors": []
+    },
+    {
+      "source": "python_sweep_20261019_061241.csv",
+      "data_samples": 51,
+      "active_samples": 45,
+      "on_duration_s": 45.392255,
+      "errors": []
+    }
+  ],
+  "sweep_source": "python_sweep_20261019_061241.csv",
+  "phases": [
+    {
+      "pwm": 200,
+      "duration_s": 14.993869,
+      "completed": true,
+      "data_samples": 15,
+      "tail_n": 5,
+      "tail_mean_pulse_hz": 267.2,
+      "tail_sd_pulse_hz": 5.0695,
+      "tail_range_percent": 4.8653,
+      "tail_min_pulse_hz": 262.0,
+      "tail_max_pulse_hz": 275.0,
+      "stable": true,
+      "tail_rpm_assumed_ppr2": 8016.0,
+      "selected_timestamps": [
+        "2026-10-19T06:12:55.358611+07:00",
+        "2026-10-19T06:12:56.359306+07:00",
+        "2026-10-19T06:12:57.358927+07:00",
+        "2026-10-19T06:12:58.359218+07:00",
+        "2026-10-19T06:12:59.357971+07:00"
+      ]
+    },
+    {
+      "pwm": 160,
+      "duration_s": 15.198967,
+      "completed": true,
+      "data_samples": 15,
+      "tail_n": 5,
+      "tail_mean_pulse_hz": 133.8,
+      "tail_sd_pulse_hz": 2.49,
+      "tail_range_percent": 4.4843,
+      "tail_min_pulse_hz": 132.0,
+      "tail_max_pulse_hz": 138.0,
+      "stable": true,
+      "tail_rpm_assumed_ppr2": 4014.0,
+      "selected_timestamps": [
+        "2026-10-19T06:13:10.357819+07:00",
+        "2026-10-19T06:13:11.357814+07:00",
+        "2026-10-19T06:13:12.358346+07:00",
+        "2026-10-19T06:13:13.358896+07:00",
+        "2026-10-19T06:13:14.358072+07:00"
+      ]
+    },
+    {
+      "pwm": 120,
+      "duration_s": 15.199419,
+      "completed": true,
+      "data_samples": 15,
+      "tail_n": 5,
+      "tail_mean_pulse_hz": 20.8,
+      "tail_sd_pulse_hz": 0.8367,
+      "tail_range_percent": 9.6154,
+      "tail_min_pulse_hz": 20.0,
+      "tail_max_pulse_hz": 22.0,
+      "stable": false,
+      "tail_rpm_assumed_ppr2": 624.0,
+      "selected_timestamps": [
+        "2026-10-19T06:13:25.357360+07:00",
+        "2026-10-19T06:13:26.356924+07:00",
+        "2026-10-19T06:13:27.357604+07:00",
+        "2026-10-19T06:13:28.357058+07:00",
+        "2026-10-19T06:13:29.357156+07:00"
+      ]
+    }
+  ],
+  "selection": "Last 5 full DATA windows after 5 seconds settling; completed 15 s phase; positive pulses; range/mean <=5%. Same descriptive criterion as Module 01. Nonqualifying tails are explicitly labelled not stable.",
+  "comparisons": [
+    {
+      "pwm": 200,
+      "basic_hz": 278.8,
+      "python_hz": 267.2,
+      "difference_percent": -4.1607
+    },
+    {
+      "pwm": 160,
+      "basic_hz": 131.8,
+      "python_hz": 133.8,
+      "difference_percent": 1.5175
+    }
+  ]
+}

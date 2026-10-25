@@ -1,0 +1,47 @@
+[
+  {
+    "file": "BlynkEdgent.h",
+    "url": "https://raw.githubusercontent.com/Blynk-Technologies/blynk-library/v1.3.2/examples/Blynk.Edgent/Edgent_ESP32/BlynkEdgent.h",
+    "upstream_sha256": "07133329104b96370e113330a81b6e614aa0817038600e7bebd700549f88927d"
+  },
+  {
+    "file": "BlynkState.h",
+    "url": "https://raw.githubusercontent.com/Blynk-Technologies/blynk-library/v1.3.2/examples/Blynk.Edgent/Edgent_ESP32/BlynkState.h",
+    "upstream_sha256": "7dfdf54a435bf38cc932791aafcf72ce13cc10f6e82243ec708fcd59c37803fd"
+  },
+  {
+    "file": "ConfigMode.h",
+    "url": "https://raw.githubusercontent.com/Blynk-Technologies/blynk-library/v1.3.2/examples/Blynk.Edgent/Edgent_ESP32/ConfigMode.h",
+    "upstream_sha256": "0ea47e7b2332c988d42763ffeeae6771181a8b129c0aa48725cbeff649da6059"
+  },
+  {
+    "file": "ConfigStore.h",
+    "url": "https://raw.githubusercontent.com/Blynk-Technologies/blynk-library/v1.3.2/examples/Blynk.Edgent/Edgent_ESP32/ConfigStore.h",
+    "upstream_sha256": "37bc8805da68f7c0ee885130d76d0eddbc166d3c999bff9239360baba7a722f2"
+  },
+  {
+    "file": "Console.h",
+    "url": "https://raw.githubusercontent.com/Blynk-Technologies/blynk-library/v1.3.2/examples/Blynk.Edgent/Edgent_ESP32/Console.h",
+    "upstream_sha256": "3e06393d010fe659631c86ca13f8d51d15f7daf848ba6d730ace6f72098fdbe0"
+  },
+  {
+    "file": "Indicator.h",
+    "url": "https://raw.githubusercontent.com/Blynk-Technologies/blynk-library/v1.3.2/examples/Blynk.Edgent/Edgent_ESP32/Indicator.h",
+    "upstream_sha256": "53ecc5f379f7f8fa1f496f2582efd664c6752ad9afc1c4b1bf0e288dcfe61810"
+  },
+  {
+    "file": "OTA.h",
+    "url": "https://raw.githubusercontent.com/Blynk-Technologies/blynk-library/v1.3.2/examples/Blynk.Edgent/Edgent_ESP32/OTA.h",
+    "upstream_sha256": "712e23629014431e80dbaa03b0da7c5026f9b458b9c3a4a672e815a738f61856"
+  },
+  {
+    "file": "ResetButton.h",
+    "url": "https://raw.githubusercontent.com/Blynk-Technologies/blynk-library/v1.3.2/examples/Blynk.Edgent/Edgent_ESP32/ResetButton.h",
+    "upstream_sha256": "e8c721f6e5821f643263ed1cb696831b5c4833cb8ddebb1720d22893597c4a1f"
+  },
+  {
+    "file": "Settings.h",
+    "url": "https://raw.githubusercontent.com/Blynk-Technologies/blynk-library/v1.3.2/examples/Blynk.Edgent/Edgent_ESP32/Settings.h",
+    "upstream_sha256": "b9af8432400af7f7b12a0e076b4efff718c93dfb59ac6059e9ea4f368d6e49ab"
+  }
+]

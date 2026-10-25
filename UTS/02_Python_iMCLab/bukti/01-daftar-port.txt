@@ -1,0 +1,1 @@
+COM5: Silicon Labs CP210x USB to UART Bridge (COM5)

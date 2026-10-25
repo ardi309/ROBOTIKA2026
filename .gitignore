@@ -1,0 +1,16 @@
+# Konfigurasi lokal dan hasil build
+**/secrets.h
+**/template_config.h
+.venv/
+__pycache__/
+*.pyc
+.tools/
+.arduino-data/
+.arduino-downloads/
+.arduino-user/
+tmp/
+*.bin
+*.elf
+*.map
+# Materi asli memuat token/password dan bukan berkas penyerahan UTS.
+/materi/

@@ -1,0 +1,28 @@
+UTS MODUL 02 - PYTHON iMCLab
+Bukti tambahan: koneksi USB serial saat motor OFF
+Waktu: 2026-10-19T11:24:50+07:00
+Program: D:\ryudev_area\robotika\UTS\02_Python_iMCLab\program\kontrol_imclab.py
+Python: 3.12.14
+Argumen: --port COM5 --capture 3 --pwm 0
+
+COM5: Silicon Labs CP210x USB to UART Bridge (COM5)
+Log: D:\ryudev_area\robotika\UTS\02_Python_iMCLab\data\bukti_off_20261019_112450.csv
+ESP32: DATA PWM=0 SET=200 RPM=0.0 PULSES=0 DT_MS=1000
+ESP32: DATA PWM=0 SET=200 RPM=0.0 PULSES=0 DT_MS=1000
+ESP32: DATA PWM=0 SET=200 RPM=0.0 PULSES=0 DT_MS=1000
+ESP32: ACK PWM=0 SET=200 RPM=0.0 PULSES=0 DT_MS=1000
+Mulai rekam 3 detik pada PWM 0. Ctrl+C untuk berhenti.
+ESP32: ACK PWM=0 SET=0 RPM=0.0 PULSES=0 DT_MS=1000
+ESP32: ACK PWM=0 SET=0 RPM=0.0 PULSES=0 DT_MS=1000
+ESP32: DATA PWM=0 SET=0 RPM=0.0 PULSES=0 DT_MS=1000
+ESP32: DATA PWM=0 SET=0 RPM=0.0 PULSES=0 DT_MS=1000
+ESP32: DATA PWM=0 SET=0 RPM=0.0 PULSES=0 DT_MS=1000
+ESP32: ACK PWM=0 SET=0 RPM=0.0 PULSES=0 DT_MS=1000
+ESP32: DATA PWM=0 SET=0 RPM=30.0 PULSES=1 DT_MS=1000
+ESP32: DATA PWM=0 SET=0 RPM=30.0 PULSES=1 DT_MS=1000
+ESP32: DATA PWM=0 SET=0 RPM=60.0 PULSES=2 DT_MS=1000
+
+Kode keluar program: 0
+Balasan akhir: OFF terkonfirmasi (PWM=0).
+Salinan konsol: bukti_off_20261019_112450.txt
+CSV tambahan: bukti_off_20261019_112450.csv

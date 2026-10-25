@@ -1,0 +1,6 @@
+Failed to extract VCRUNTIME140.dll: failed to open target file!
+fopen: Permission denied
+Error during build: exit status 0xffffffff
+
+Used platform Version Path
+esp32:esp32   2.0.17  D:\ryudev_area\robotika\.arduino-data\packages\esp32\hardware\esp32\2.0.17

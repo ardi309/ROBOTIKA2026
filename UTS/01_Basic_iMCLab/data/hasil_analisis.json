@@ -1,0 +1,192 @@
+{
+  "ppr_assumed": 2,
+  "rpm_calibrated": false,
+  "raw_log_count": 14,
+  "data_sample_count": 135,
+  "runs": [
+    {
+      "source": "basic_perintah_20261019_012248.log",
+      "data_samples": 5,
+      "active_samples": 0,
+      "on_duration_s": null,
+      "active_peak_pulses": null,
+      "active_last_rpm": null,
+      "early_stop": false
+    },
+    {
+      "source": "basic_variasi-berjalan_20261019_012135.log",
+      "data_samples": 45,
+      "active_samples": 41,
+      "on_duration_s": 41.025437,
+      "active_peak_pulses": 283,
+      "active_last_rpm": 0.0,
+      "early_stop": true
+    },
+    {
+      "source": "motor_pwm120_20261019_005007.log",
+      "data_samples": 9,
+      "active_samples": 5,
+      "on_duration_s": 5.068299,
+      "active_peak_pulses": 0,
+      "active_last_rpm": 0.0,
+      "early_stop": false
+    },
+    {
+      "source": "motor_pwm120_20261019_005754.log",
+      "data_samples": 6,
+      "active_samples": 3,
+      "on_duration_s": 3.10979,
+      "active_peak_pulses": 0,
+      "active_last_rpm": 0.0,
+      "early_stop": true
+    },
+    {
+      "source": "motor_pwm160_20261019_005801.log",
+      "data_samples": 6,
+      "active_samples": 3,
+      "on_duration_s": 3.133968,
+      "active_peak_pulses": 0,
+      "active_last_rpm": 0.0,
+      "early_stop": true
+    },
+    {
+      "source": "motor_pwm200_20261019_005512.log",
+      "data_samples": 5,
+      "active_samples": 2,
+      "on_duration_s": 2.149581,
+      "active_peak_pulses": 199,
+      "active_last_rpm": 5970.0,
+      "early_stop": false
+    },
+    {
+      "source": "motor_pwm200_20261019_005723.log",
+      "data_samples": 8,
+      "active_samples": 5,
+      "on_duration_s": 5.166661,
+      "active_peak_pulses": 259,
+      "active_last_rpm": 7770.0,
+      "early_stop": false
+    },
+    {
+      "source": "motor_pwm200_20261019_005731.log",
+      "data_samples": 9,
+      "active_samples": 6,
+      "on_duration_s": 5.066579,
+      "active_peak_pulses": 259,
+      "active_last_rpm": 7710.0,
+      "early_stop": false
+    },
+    {
+      "source": "motor_pwm200_20261019_005740.log",
+      "data_samples": 8,
+      "active_samples": 5,
+      "on_duration_s": 5.090905,
+      "active_peak_pulses": 274,
+      "active_last_rpm": 8220.0,
+      "early_stop": false
+    },
+    {
+      "source": "motor_pwm200_20261019_005807.log",
+      "data_samples": 7,
+      "active_samples": 4,
+      "on_duration_s": 3.091272,
+      "active_peak_pulses": 0,
+      "active_last_rpm": 0.0,
+      "early_stop": true
+    },
+    {
+      "source": "motor_pwm200_20261019_010055.log",
+      "data_samples": 7,
+      "active_samples": 3,
+      "on_duration_s": 3.198234,
+      "active_peak_pulses": 0,
+      "active_last_rpm": 0.0,
+      "early_stop": true
+    },
+    {
+      "source": "motor_pwm200_20261019_011923.log",
+      "data_samples": 5,
+      "active_samples": 2,
+      "on_duration_s": 2.023968,
+      "active_peak_pulses": 84,
+      "active_last_rpm": 2520.0,
+      "early_stop": false
+    },
+    {
+      "source": "motor_pwm80_20261019_005748.log",
+      "data_samples": 7,
+      "active_samples": 3,
+      "on_duration_s": 3.108957,
+      "active_peak_pulses": 0,
+      "active_last_rpm": 0.0,
+      "early_stop": true
+    },
+    {
+      "source": "usb_motor_off_20261018_213758.log",
+      "data_samples": 8,
+      "active_samples": 0,
+      "on_duration_s": null,
+      "active_peak_pulses": null,
+      "active_last_rpm": null,
+      "early_stop": false
+    }
+  ],
+  "sweep_source": "basic_variasi-berjalan_20261019_012135.log",
+  "selection": "Last 5 full DATA windows after 5 seconds settling; completed phase; positive pulses; range/mean <=5%. Descriptive rule chosen during analysis.",
+  "phases": [
+    {
+      "pwm": 200,
+      "duration_s": 15.024246,
+      "completed": true,
+      "data_samples": 15,
+      "stable": true,
+      "stable_n": 5,
+      "selected_timestamps": [
+        "2026-10-19T01:21:46.7920487+07:00",
+        "2026-10-19T01:21:47.7920228+07:00",
+        "2026-10-19T01:21:48.7919136+07:00",
+        "2026-10-19T01:21:49.7920311+07:00",
+        "2026-10-19T01:21:50.7919291+07:00"
+      ],
+      "mean_pulse_hz": 278.8,
+      "sample_sd_pulse_hz": 4.3818,
+      "range_percent": 3.5868,
+      "mean_rpm_assumed_ppr2": 8364.0,
+      "active_last_pulses": 283
+    },
+    {
+      "pwm": 160,
+      "duration_s": 15.198764,
+      "completed": true,
+      "data_samples": 15,
+      "stable": true,
+      "stable_n": 5,
+      "selected_timestamps": [
+        "2026-10-19T01:22:01.7919992+07:00",
+        "2026-10-19T01:22:02.7920212+07:00",
+        "2026-10-19T01:22:03.7919247+07:00",
+        "2026-10-19T01:22:04.7920449+07:00",
+        "2026-10-19T01:22:05.7919783+07:00"
+      ],
+      "mean_pulse_hz": 131.8,
+      "sample_sd_pulse_hz": 0.4472,
+      "range_percent": 0.7587,
+      "mean_rpm_assumed_ppr2": 3954.0,
+      "active_last_pulses": 132
+    },
+    {
+      "pwm": 120,
+      "duration_s": 10.802427,
+      "completed": false,
+      "data_samples": 11,
+      "stable": false,
+      "stable_n": 0,
+      "selected_timestamps": [],
+      "mean_pulse_hz": null,
+      "sample_sd_pulse_hz": null,
+      "range_percent": null,
+      "mean_rpm_assumed_ppr2": null,
+      "active_last_pulses": 0
+    }
+  ]
+}

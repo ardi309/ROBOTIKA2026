@@ -1,0 +1,14 @@
+UTS MODUL 02 - PYTHON iMCLab
+Bukti tambahan: motor ON PWM 200 selama 5 detik, lalu OFF
+Waktu: 2026-10-19T11:34:21+07:00
+Program: D:\ryudev_area\robotika\UTS\02_Python_iMCLab\program\kontrol_imclab.py
+Python: 3.12.14
+Argumen: --port COM5 --capture 5 --pwm 200
+
+COM5: Silicon Labs CP210x USB to UART Bridge (COM5)
+Log: D:\ryudev_area\robotika\UTS\02_Python_iMCLab\data\bukti_on200_20261019_113421.csv
+Gagal: could not open port 'COM5': PermissionError(13, 'Access is denied.', None, 5)
+
+Kode keluar program: 1
+Salinan konsol: bukti_on200_20261019_113421.txt
+CSV tambahan: bukti_on200_20261019_113421.csv

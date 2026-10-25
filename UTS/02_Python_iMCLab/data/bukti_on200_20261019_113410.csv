@@ -1,0 +1,2 @@
+timestamp,direction,raw,pwm,set_pwm,rpm,pulses,dt_ms
+2026-10-19T11:34:10.472840+07:00,EVENT,"ERROR could not open port 'COM5': PermissionError(13, 'Access is denied.', None, 5)",,,,,
